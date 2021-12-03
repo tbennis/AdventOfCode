@@ -9,6 +9,6 @@ print(ltp)
 
 ltps = 0
 for j in range(len(lines)-3):
-    if lines[j+3] + lines[j+2] + lines[j+1] > lines[j] + lines[j+1] + lines[j+2]:
+    if lines[j+3] > lines[j]:
         ltps += 1
 print(ltps)
